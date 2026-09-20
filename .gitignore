@@ -1,0 +1,24 @@
+# --- learning / scaffold files (never pushed) ---
+WORKFLOW.md
+INTERVIEW_QA.md
+INTERPRETATION.md
+01_build.ipynb
+02_build.R
+*ran_practiced*
+*tried_hands_on*
+
+# --- generated data (large / re-derivable via live API fetch) ---
+data/
+
+# --- generated outputs (bulk), keep the hero CSVs ---
+results/*
+!results/predictions.csv
+!results/predictions_R.csv
+!results/feature_importance.csv
+!results/feature_importance_R.csv
+
+# --- environment junk ---
+.ipynb_checkpoints/
+__pycache__/
+.Rhistory
+.RData
